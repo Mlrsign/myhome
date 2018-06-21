@@ -63,11 +63,11 @@ $(function () {
     var picLi = $(".pic>li");
 
     function stopPic() {
-        console.log($(this));
+        // console.log($(this));
         clearInterval(timer);
     }
     function startPic() {
-        console.log($(this));
+        // console.log($(this));
         autoPlay();
     }
     function clickDotted() {
