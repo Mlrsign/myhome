@@ -5,9 +5,11 @@
     <title>瓦屋山</title>
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
     <link rel="stylesheet" href="css/myhome.css">
-    <script src="js/jquery-1.12.4.js"></script>
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/myhome.js"></script>
+    <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="js/myhome.js"></script>
+    <script type="text/javascript" src="js/mymap.js"></script>
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.6&key=58dc6e05a2f286955ae6340ed217e528&callback=init"></script>
 </head>
 <body>
 <div class="wraper">
@@ -31,11 +33,11 @@
             </ul>
             <div class="nav-content">
                 <ul class="nav-content-list">
-                    <li>首页导航栏内容（建设中）</li>
-                    <li>景点介绍航栏内容（建设中）</li>
-                    <li>酒店民宿导航栏内容（建设中）</li>
-                    <li>游客留言导航栏内容（建设中）</li>
-                    <li>照片墙导航栏内容（建设中）</li>
+                    <li>首页导航栏内容(建设中)</li>
+                    <li>景点介绍航栏内容(建设中)</li>
+                    <li>酒店民宿导航栏内容(建设中)</li>
+                    <li>游客留言导航栏内容(建设中)</li>
+                    <li>照片墙导航栏内容(建设中)</li>
                 </ul>
             </div>
         </div>
@@ -43,11 +45,11 @@
             <div class="seasons-left">
                 <div class="pic-wraper">
                     <ul class="pic">
-                        <li><img src="img/spring.png" alt="spring" title="春"></li>
-                        <li><img src="img/summer.jpg" alt="summer" title="夏"></li>
-                        <li><img src="img/autumn.png" alt="autumn" title="秋"></li>
-                        <li><img src="img/winter.png" alt="winter" title="冬"></li>
-                        <li><img src="img/spring.png" alt="spring" title="春"></li>
+                        <li><img src="img/spring.png" alt="spring"></li>
+                        <li><img src="img/summer.jpg" alt="summer"></li>
+                        <li><img src="img/autumn.png" alt="autumn"></li>
+                        <li><img src="img/winter.png" alt="winter"></li>
+                        <li><img src="img/spring.png" alt="spring"></li>
                     </ul>
                     <ul class="dotted">
                         <li><a href="javascript:;"></a></li>
@@ -137,6 +139,13 @@
     <div class="footer">
         <h5>瓦屋山国家森林公园欢迎您的到来</h5>
     </div>
+</div>
+<div id="mymap">
+    <div id="close" title="关闭地图"></div>
+</div>
+
+<div id="start">
+    <div id="tips">点击打开地图</div>
 </div>
 </body>
 </html>

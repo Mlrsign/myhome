@@ -158,7 +158,6 @@ a{
     float: left;
 }
 .seasons .seasons-left .pic-wraper .pic li img{
-    cursor: pointer;
     width: 600px;
     height: 412px;
 }
@@ -241,5 +240,51 @@ a{
 }
 .footer h5{
     text-align: center;
+}
+#mymap {
+    /*display: none;*/
+    width: 0;
+    height: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 3px solid #ccc;
+
+    /*background-color: rgba(255,0,0,0.3);*/
+}
+#close{
+    width:30px;
+    height:30px;
+    /*background-color: red;*/
+    position: absolute;
+    right:0;
+    top:0;
+    background:url("../img/closeLogo.PNG") no-repeat center ;
+    /*border: 1px solid black;*/
+    cursor: pointer;
+    z-index:20;
+}
+#start{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: url("../img/mark.jpg") no-repeat center;
+    background-size: 50px;
+    cursor: pointer;
+}
+#tips{
+    /*display: none;*/
+    font-size: 0;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #bce9ef;
+    width: 0;
+    height: 30px;
+    position: absolute;
+    right: 50px;
+    top: -10px;
+    line-height: 30px;
 }
 .mCSB_1_scrollbar .mCSB_dragger .mCSB_draggerRail{  width: 8px; }
